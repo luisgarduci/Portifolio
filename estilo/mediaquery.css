@@ -1,0 +1,40 @@
+@media (max-width: 980px) {
+    .projetos {
+        height: 400px;
+        gap: 130px;
+    }
+
+    #seta {
+        display: none;
+    }
+
+}
+
+@media (max-width: 805px) {
+
+    .projetos {
+       gap: 50px;
+    }
+
+    .projetos > .imagens-projetos {
+        width: 140px;
+        height: 140px;
+        border-radius: 500px;
+        object-fit: cover;
+    }
+    
+    .projetos > .imagens-projetos:hover {
+        scale: 100%;
+    }
+    
+    .projetos > p {
+        width: 250px;
+        height: 150px;
+        font-size: 11px;
+        line-height: 22px;
+    }
+    
+    .projetos > p:hover {
+        scale: 100%;
+    }
+}

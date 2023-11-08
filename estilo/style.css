@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;;
+}
+
+.header-modo-escuro {
+    width: 100%;
+    height: 600px;
+    background-color: #012030;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+button#modo {
+    width: 50px;
+    height: 50px;
+    background-image: url(../imagens/lanterna.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 200px;
+    color: white;
+}
+
+.header-modo-claro {
+    width: 100%;
+    height: 600px;
+    background-color: #A4D0D7;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+header > h1 {
+    font-size: 50px;
+    animation-name: animacao-nome;
+    animation-duration: 12s;
+}
+
+header > .hamburguer-modo-escuro {
+    width: 50px;
+    background-image: url(../imagens/menu-aberto-escuro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    cursor: pointer;
+}
+
+header > .hamburguer-modo-claro {
+    width: 48px;
+    background-image: url(../imagens/menu-modo-claro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    cursor: pointer;
+}
+
+header > nav {
+    position: absolute;
+    left: -100px;
+    visibility: hidden;
+    top: 90px;
+    padding: 5px;
+    background-color: white;
+     height: 510px;
+     border-bottom: 5px solid gray;
+     width: 140px;
+     border-radius: 5px;
+     text-align: center;
+     line-height: 50px;
+}
+
+header > nav > ul > hr {
+  padding: 2px;
+  background-color: lightgray;
+  text-align: center;
+  margin-top: 10px;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header > nav > ul > li {
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+header > nav > ul > li:hover {
+   background-color: lightgray;
+   cursor: pointer;
+}
+
+
+header > div#redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+header > div#redes-sociais > .buttons {
+    padding: 8px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+header > div#redes-sociais > .buttons:hover {
+    scale: 110%;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+
+header > div#redes-sociais > .buttons > a {
+    text-decoration: none;
+    font-size: 22px;
+}
+
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    gap: 300px;
+}
+
+.projetos > .imagens-projetos {
+    width: 220px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 500px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.projetos > .imagens-projetos:hover {
+    scale: 110%;
+    transition: all 0.5s ease-out;
+}
+
+.projetos > #img-projeto1 {
+    background-image: url(../imagens/redes-sociais.png);
+}
+
+.projetos > #img-projeto2 {
+    background-image: url(../imagens/login.png);
+}
+
+.projetos > #img-projeto3 {
+    background-image: url(../imagens/android.png);
+    background-position: center center;
+}
+
+.projetos > #img-projeto4 {
+    background-image: url(../imagens/pokedex.png);
+    background-position: center center;
+}
+
+.projetos > #img-projeto5 {
+    background-image: url(../imagens/tarefas.png);
+}
+
+.projetos > #img-projeto6 {
+    background-image: url(../imagens/spectrus.png);
+}
+
+.projetos > p {
+    width: 400px;
+    height: 150px;
+    line-height: 22px;
+}
+
+.projetos > p:hover {
+    scale: 110%;
+    transition: all 0.5s ease-out;
+}
+
+
+#seta {
+    width: 50px;
+    height: 50px;
+    background-image: url(../imagens/seta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 200px;
+    position: fixed;
+    top: 500px;
+    left: 1200px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.footer-modo-escuro{
+    background-color: #012030;
+    color: white;
+    padding: 10px;
+}
+
+.footer-modo-claro {
+    background-color: #98D2DA;
+    color: black;
+    padding: 10px;
+}
+
+.footer-modo-claro > p > a {
+    color: black;
+}
+
+footer > p {
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+
+@keyframes animacao-nome {
+    0% {
+        color: white;
+    }
+
+    25%{
+        color: #012030;
+    }
+
+    50% {
+        color: white;
+    }
+
+    75% {
+        color: #012030;
+    }
+
+    100%{
+        color: white;
+    }
+}
