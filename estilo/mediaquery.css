@@ -17,8 +17,8 @@
     }
 
     .projetos > .imagens-projetos {
-        width: 130px;
-        height: 130px;
+        width: 140px;
+        height: 140px;
         border-radius: 500px;
         object-fit: cover;
     }
@@ -30,7 +30,7 @@
     .projetos > p {
         width: 200px;
         height: 150px;
-        font-size: 10px;
+        font-size: 7px;
         line-height: 22px;
     }
     
