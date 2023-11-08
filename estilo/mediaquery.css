@@ -28,10 +28,10 @@
     }
     
     .projetos > p {
-        width: 200px;
+        width: 180px;
         height: 150px;
-        font-size: 7px;
-        line-height: 22px;
+        font-size: 9px;
+        line-height: 20px;
     }
     
     .projetos > p:hover {
