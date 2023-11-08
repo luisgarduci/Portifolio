@@ -12,6 +12,25 @@
 
 @media (max-width: 805px) {
 
+    header > h1 {
+        font-size: 38px;
+        animation-name: animacao-nome;
+        animation-duration: 12s;
+    }
+
+    header > div#redes-sociais > .buttons {
+        padding: 8px;
+        width: 130px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    header > div#redes-sociais > .buttons > a {
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+
     .projetos {
        gap: 30px;
     }
@@ -36,5 +55,12 @@
     
     .projetos > p:hover {
         scale: 100%;
+    }
+    
+    footer > p {
+        font-size: 13px;
+    }
+    footer > p > a {
+        font-size: 13px;
     }
 }
