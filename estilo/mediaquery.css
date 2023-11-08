@@ -13,7 +13,7 @@
 @media (max-width: 805px) {
 
     .projetos {
-       gap: 50px;
+       gap: 30px;
     }
 
     .projetos > .imagens-projetos {
@@ -30,7 +30,7 @@
     .projetos > p {
         width: 180px;
         height: 150px;
-        font-size: 9px;
+        font-size: 11px;
         line-height: 20px;
     }
     
