@@ -40,7 +40,7 @@
         height: 140px;
         border-radius: 500px;
         object-fit: cover;
-        display: none;
+        
     }
     
     .projetos > .imagens-projetos:hover {
