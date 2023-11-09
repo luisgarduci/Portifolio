@@ -1,7 +1,15 @@
 @media (max-width: 980px) {
     .projetos {
         height: 400px;
-        gap: 130px;
+        gap: 100px;
+    }
+
+    .projetos > .imagens-projetos {
+        width: 160px;
+        height: 160px;
+        border-radius: 500px;
+        object-fit: cover;
+        
     }
 
     #seta {
@@ -10,8 +18,32 @@
 
 }
 
-@media (max-width: 805px) {
+@media (max-width: 750px) {
+    .projetos > .imagens-projetos {
+        width: 160px;
+        height: 160px;
+        border-radius: 500px;
+        object-fit: cover;
+        
+    }
+    
+    .projetos > .imagens-projetos:hover {
+        scale: 100%;
+    }
+    
+    .projetos > p {
+        width: 180px;
+        height: 150px;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    
+    .projetos > p:hover {
+        scale: 100%;
+    }
+}
 
+@media (max-width: 600px) {
     header > h1 {
         font-size: 38px;
         animation-name: animacao-nome;
@@ -32,12 +64,14 @@
 
 
     .projetos {
-       gap: 30px;
+       gap: 40px;
+       flex-direction: column;
+       height: 500px;
     }
 
     .projetos > .imagens-projetos {
-        width: 140px;
-        height: 140px;
+        width: 150px;
+        height: 150px;
         border-radius: 500px;
         object-fit: cover;
         
@@ -48,9 +82,10 @@
     }
     
     .projetos > p {
-        width: 180px;
+        width: 300px;
         height: 150px;
-        font-size: 11px;
+        font-size: 14px;
+        text-align: center;
         line-height: 20px;
     }
     
@@ -65,3 +100,5 @@
         font-size: 13px;
     }
 }
+
+
