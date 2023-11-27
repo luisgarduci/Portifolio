@@ -181,17 +181,23 @@ header > div#redes-sociais > .buttons > a {
 }
 
 .projetos > #img-projeto4 {
+    background-image: url(../imagens/microsoft.png)
+}
+
+.projetos > #img-projeto5 {
     background-image: url(../imagens/pokedex.png);
     background-position: center center;
 }
 
-.projetos > #img-projeto5 {
+.projetos > #img-projeto6 {
     background-image: url(../imagens/tarefas.png);
 }
 
-.projetos > #img-projeto6 {
+.projetos > #img-projeto7 {
     background-image: url(../imagens/spectrus.png);
 }
+
+
 
 .projetos > p {
     width: 400px;
