@@ -199,8 +199,13 @@ header > div#redes-sociais > .buttons > a {
 }
 
 .projetos > #img-projeto8 {
+    background-image: url(../imagens/tempo.png);
+}
+
+.projetos > #img-projeto9 {
     background-image: url(../imagens/spectrus.png);
 }
+
 
 
 
