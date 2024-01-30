@@ -372,7 +372,9 @@ section.apresentation  > .container-smartphone-redes-sociais {
         top: 500px;
     }
 
-    
+    section.projects {
+        gap: 50px;
+    }
 }
 
 @media (max-width: 736px) {
@@ -404,6 +406,10 @@ section.apresentation  > .container-smartphone-redes-sociais {
     section.skills > .container-skills > p {
         width: 150px;
         font-size: 15px;
+    }
+
+    section.projects {
+        flex-direction: column;
     }
 }
 
