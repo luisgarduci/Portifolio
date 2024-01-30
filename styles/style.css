@@ -36,7 +36,7 @@ section.skills > .container-skills > .skill-modo-escuro{
 header {
     width: 100%;
     box-shadow: 0px 1px 1px lightgray;
-    display: flex;
+    display: none;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0px 20px 0px;
