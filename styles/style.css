@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(Poppins-Medium.ttf);
+}
+
+.corpo-modo-escuro {
+    background-color: #191527;
+    color: white;
+}
+
+header.modo-escuro {
+    background-color: #191527;
+    color: white;
+}
+
+header > section.modo-escuro > a{
+    color: white;
+}
+
+.titles-modo-escuro {
+    color: white;
+}
+
+section.skills > .container-skills > .skill-modo-escuro{
+   background-color: #5A43CB;
+   color: white;
+}
+
+
+header {
+    width: 100%;
+    box-shadow: 0px 1px 1px lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    color: #6B696D;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 5;
+}
+
+
+
+header > .container-informations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    cursor: pointer;
+}
+
+header > .container-informations > a {
+   text-decoration: none;
+   color: #6B696D;
+   font-size: 17px;
+}
+
+header > .container-informations > a:hover {
+    color: blue;
+}
+
+
+
+.corpo-modo-escuro {
+    background-color: #191527;
+    color: white;
+}
+
+section.apresentation {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.apresentation > .container-redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 100px;
+}
+
+section.apresentation > .container-redes-sociais > a {
+    font-size: 30px;
+}
+
+section.apresentation > img {
+    height: 300px;
+}
+
+
+section.apresentation > .brief-informations > #description {
+    width: 300px;
+}
+
+section.apresentation > .brief-informations {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section.about-me {
+    margin-top: 30px;
+}
+
+.container-titles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container-titles > h2 {
+    text-align: center;
+    
+}
+
+
+.container-titles > h3 {
+   color: lightgray;
+   text-align: center;
+   margin-top: 5px;
+   margin-bottom: 50px;
+}
+
+section.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 180px;
+}
+
+section.about-me > img {
+    height: 300px;
+}
+
+section.about-me > .container-about-me > #description {
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+
+section.about-me > .container-about-me > .experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+section.about-me > .container-about-me > .experience > .projects > .num {
+    background-color: #5A43CB;
+    width: 30px;
+    height: 30px;
+    color: white;
+    padding: 5px;
+    line-height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 5px;;
+}
+
+section.about-me > .container-about-me > .experience > .projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+section.about-me > .container-about-me > .experience > .years {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3px;
+}
+
+section.about-me > .container-about-me > .experience > .years > .num {
+    background-color: #5A43CB;
+    width: 30px;
+    height: 30px;
+    color: white;
+    padding: 5px;
+    line-height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+section.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 180px;
+}
+
+section.skills > .container-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    
+}
+
+
+
+section.skills > .container-skills > p {
+    width: 80px;
+    padding: 7px;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section.skills > .container-skills > p:hover {
+    background-color: #5A43CB;
+    
+}
+
+section.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    gap: 60px;
+}
+
+section.projects > i {
+    font-size: 60px;
+}
+
+section.projects > img {
+    width: 320px;
+    height: 179px;
+    border-radius: 8px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+section.projects > .container-project-informations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+section.projects > .container-project-informations > p {
+    width: 300px;
+    font-size: 15px;
+}
+
+section.projects > .container-project-informations > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 180px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #5A43CB;
+    color: white;
+    text-decoration: none;
+}
+
+section.projects > .container-project-informations > a:hover > i{
+margin-left: 10px;
+transition: 0.5s;
+
+}
+
+footer {
+    background-color: #5A43CB;
+    height: 250px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    color: rgb(202, 202, 202);
+}
+
+footer > h2 {
+    text-align: center;
+    color: white;
+}
+
+footer > .container-email, .container-linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+section.apresentation  > .container-smartphone-redes-sociais {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 27px;
+    
+}
+
+.smartphoneHeader {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    gap: 155px;
+    padding: 9px 0px 9px 0px;
+    border-top: 1px solid gray;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: black;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.smartphoneHeader > .container-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.smartphoneHeader > .container-icons > i {
+    font-size: 20px;
+}
+
+@media (max-width: 920px) {
+    section.about-me {
+        gap: 5px;
+    }
+    section.about-me > img {
+        height: 240px;
+    }
+
+    section.about-me > .container-about-me > #description {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 880px) {
+
+    section.apresentation > .container-redes-sociais {
+        display: none;
+    }
+
+   section.apresentation >  .container-smartphone-redes-sociais {
+        display: flex;
+        top: 500px;
+    }
+
+    
+}
+
+@media (max-width: 736px) {
+    header > .container-name > h2{
+      font-size: 19px;
+    }
+
+    header > .container-informations {
+        gap: 30px;
+    }
+
+    header > .container-informations > a {
+        font-size: 15px;
+    }
+
+    section.about-me {
+     flex-direction: column;
+     gap: 15px;
+    }
+
+    
+}
+
+@media (max-width: 620px) {
+    section.apresentation > img {
+        height: 250px;
+    }
+
+    section.skills > .container-skills > p {
+        width: 65px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        display: none;
+    } 
+
+    .smartphoneHeader {
+        display: flex;
+    }
+
+    section.apresentation >  .container-smartphone-redes-sociais {
+        top: 400px;
+    }
+
+}
+
+@media (max-width: 565px) {
+    section.apresentation > img {
+        height: 220px;
+    }
+    section.apresentation {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 100px;
+    }
+  section.apresentation > .brief-informations > h1 {
+    font-size: 23px;
+  }
+
+  section.apresentation >  .container-smartphone-redes-sociais {
+    top: 485px;
+  }
+  
+}
+
+@media (max-width: 530px) {
+    section.skills > .container-skills > p {
+        width: 50px;
+        font-size: 13px;
+    }
+}
+
