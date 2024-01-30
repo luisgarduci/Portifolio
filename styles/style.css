@@ -410,6 +410,10 @@ section.apresentation  > .container-smartphone-redes-sociais {
     section.projects {
         flex-direction: column;
     }
+
+    section.projects > #seta-esquerda, #seta-direita {
+        display: none;
+    }
 }
 
 @media (max-width: 600px) {
