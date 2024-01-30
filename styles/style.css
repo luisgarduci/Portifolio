@@ -403,7 +403,7 @@ section.apresentation  > .container-smartphone-redes-sociais {
 
     section.skills > .container-skills > p {
         width: 150px;
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
@@ -442,6 +442,8 @@ section.apresentation  > .container-smartphone-redes-sociais {
 }
 
 @media (max-width: 530px) {
-    
+    section.skills > .container-skills > p {
+      font-size: 14px;
+    }
 }
 
