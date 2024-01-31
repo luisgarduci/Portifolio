@@ -1,5 +1,5 @@
 let icons = document.querySelectorAll(".icon");
-console.log(icons);
+
 let header = document.querySelector(".header-modo-claro");
 let informations = document.querySelector(".container-informations");
 let body = document.querySelector(".corpo-modo-claro");
