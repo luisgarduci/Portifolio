@@ -348,6 +348,18 @@ section.apresentation  > .container-smartphone-redes-sociais {
     font-size: 20px;
 }
 
+section.projects > #container-smartphone-arrows {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+section.projects > #container-smartphone-arrows > i {
+    font-size: 50px;
+}
+
+
 @media (max-width: 920px) {
     section.about-me {
         gap: 5px;
@@ -373,7 +385,30 @@ section.apresentation  > .container-smartphone-redes-sociais {
     }
 
     section.projects {
-        gap: 50px;
+        gap: 30px;
+    }
+
+    section.projects > img {
+        width: 300px;
+    }
+
+    section.projects > i {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 775px) {
+    section.projects {
+        gap: 22px;
+    }
+
+    section.projects > img {
+        width: 250px;
+        height: 150px;
+    }
+
+    section.projects > i {
+      font-size: 50px;
     }
 }
 
@@ -398,6 +433,27 @@ section.apresentation  > .container-smartphone-redes-sociais {
     
 }
 
+@media (max-width: 700px) {
+    section.projects {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    section.projects > img {
+        width: 320px;
+        height: 179px;
+    }
+
+    section.projects > i{
+        display: none;
+    }
+
+    section.projects > #container-smartphone-arrows {
+        display: flex;
+    }
+    
+}
+
 @media (max-width: 620px) {
     section.apresentation > img {
         height: 250px;
@@ -407,13 +463,6 @@ section.apresentation  > .container-smartphone-redes-sociais {
         font-size: 15px;
     }
 
-    section.projects {
-        flex-direction: column;
-    }
-
-    section.projects > #seta-esquerda, #seta-direita {
-        display: none;
-    }
 }
 
 @media (max-width: 600px) {
