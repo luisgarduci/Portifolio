@@ -1,17 +1,21 @@
-let icon = document.querySelector("#icon");
+let icons = document.querySelector(".icon");
+
 let header = document.querySelector(".header-modo-claro");
 let informations = document.querySelector(".container-informations");
 let body = document.querySelector(".corpo-modo-claro");
 let titles = document.querySelector(".titles-modo-claro");
 let skills = document.querySelectorAll(".skill");
-icon.addEventListener("click", () => {
-header.classList.toggle("modo-escuro");
-informations.classList.toggle("modo-escuro")
-body.classList.toggle("corpo-modo-escuro");
-titles.classList.toggle("titles-modo-escuro");
-for (let i = 0; i < skills.length; i++)
-skills[i].classList.toggle("skill-modo-escuro");
+icons.forEach( icon => {
+    icon.addEventListener("click", () => {
+        header.classList.toggle("modo-escuro");
+        informations.classList.toggle("modo-escuro")
+        body.classList.toggle("corpo-modo-escuro");
+        titles.classList.toggle("titles-modo-escuro");
+        for (let i = 0; i < skills.length; i++)
+        skills[i].classList.toggle("skill-modo-escuro");
+        })
 })
+
 
 let seta_esquerda = document.getElementById("seta-esquerda");
 let seta_direita = document.getElementById("seta-direita");
