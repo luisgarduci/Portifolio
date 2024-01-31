@@ -1,4 +1,4 @@
-let icons = document.querySelector(".icon");
+let icons = document.querySelectorAll(".icon");
 
 let header = document.querySelector(".header-modo-claro");
 let informations = document.querySelector(".container-informations");
