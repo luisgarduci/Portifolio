@@ -1,11 +1,11 @@
 let icons = document.querySelectorAll(".icon");
-
+console.log(icons);
 let header = document.querySelector(".header-modo-claro");
 let informations = document.querySelector(".container-informations");
 let body = document.querySelector(".corpo-modo-claro");
 let titles = document.querySelector(".titles-modo-claro");
 let skills = document.querySelectorAll(".skill");
-icons.forEach( icon => {
+icons.forEach(icon => {
     icon.addEventListener("click", () => {
         header.classList.toggle("modo-escuro");
         informations.classList.toggle("modo-escuro")
