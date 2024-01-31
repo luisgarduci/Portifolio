@@ -1,10 +1,10 @@
 let icons = document.querySelectorAll(".icon");
-
 let header = document.querySelector(".header-modo-claro");
 let informations = document.querySelector(".container-informations");
 let body = document.querySelector(".corpo-modo-claro");
 let titles = document.querySelector(".titles-modo-claro");
 let skills = document.querySelectorAll(".skill");
+
 icons.forEach(icon => {
     icon.addEventListener("click", () => {
         header.classList.toggle("modo-escuro");
@@ -17,8 +17,8 @@ icons.forEach(icon => {
 })
 
 
-let seta_esquerda = document.getElementById("seta-esquerda");
-let seta_direita = document.getElementById("seta-direita");
+let left_arrows = document.querySelectorAll(".left-arrow");
+let right_arrows = document.querySelectorAll(".right-arrow");
 let index = 0;
 let image = document.getElementById("image-project");
 let name = document.getElementById("name-project");
@@ -35,28 +35,33 @@ image.src = arrayProjectImage[index];
 name.textContent = arrayProjectName[index];
 description.textContent = arraydescriptionProject[index];
 link.href = arrayLinkProject[index];
-seta_direita.style.cursor = "pointer";
-seta_esquerda.style.cursor = "pointer";
-seta_direita.addEventListener("click", () => {
-if (index < 3) {
-    index++;
-    image.src = arrayProjectImage[index];
-    name.textContent = arrayProjectName[index];
-    description.textContent = arraydescriptionProject[index];
-    link.href = arrayLinkProject[index];
-}
+
+right_arrows.forEach (right_arrow => {
+    right_arrow.addEventListener("click", () => {
+        if (index < 3) {
+            index++;
+            image.src = arrayProjectImage[index];
+            name.textContent = arrayProjectName[index];
+            description.textContent = arraydescriptionProject[index];
+            link.href = arrayLinkProject[index];
+        }
+        })
+        right_arrow.style.cursor = "pointer";
 })
 
-seta_esquerda.addEventListener("click", () => {
-    if (index > 0) {
-        index--;
-        image.src = arrayProjectImage[index];
-        name.textContent = arrayProjectName[index];
-        description.textContent = arraydescriptionProject[index];
-        link.href = arrayLinkProject[index];
-    }
-    
-    })
+left_arrows.forEach(left_arrow => {
+    left_arrow.addEventListener("click", () => {
+        if (index > 0) {
+            index--;
+            image.src = arrayProjectImage[index];
+            name.textContent = arrayProjectName[index];
+            description.textContent = arraydescriptionProject[index];
+            link.href = arrayLinkProject[index];
+        }
+})
+left_arrow.style.cursor = "pointer";
+
+})
 
     
 
