@@ -1,12 +1,16 @@
 let icons = document.querySelectorAll(".icon");
-let header = document.querySelector(".header-modo-claro");
+let header = document.querySelector(".header");
 let informations = document.querySelector(".container-informations");
-let body = document.querySelector(".corpo-modo-claro");
+let body = document.querySelector(".corpo");
 let titles = document.querySelector(".titles-modo-claro");
 let skills = document.querySelectorAll(".skill");
 let menuIcon = document.getElementById("menu");
 let closeIcon = document.querySelector(".close");
 let menu = document.querySelector(".menu-smartphone");
+let footer = document.querySelector(".footer");
+let MenuFirstLine = document.querySelector(".firstLine");
+let MenuSecondLine = document.querySelector(".secondLine");
+let header_smartphone = document.querySelector(".header-smartphone");
 
 menuIcon.addEventListener("click", () => {
   menu.style.display = "flex";
@@ -22,10 +26,18 @@ icons.forEach(icon => {
         informations.classList.toggle("modo-escuro")
         body.classList.toggle("corpo-modo-escuro");
         titles.classList.toggle("titles-modo-escuro");
-        for (let i = 0; i < skills.length; i++)
-        skills[i].classList.toggle("skill-modo-escuro");
+        for (let i = 0; i < skills.length; i++) {
+            skills[i].classList.toggle("skill-modo-escuro");
+        }
+        footer.classList.toggle("modo-escuro");
+        menu.classList.toggle("modo-escuro");
+        MenuFirstLine.classList.toggle("modo-escuro");
+        MenuSecondLine.classList.toggle("modo-escuro");
+        header_smartphone.classList.toggle("modo-escuro");
         })
+        
 })
+
 
 
 let left_arrows = document.querySelectorAll(".left-arrow");

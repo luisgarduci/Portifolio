@@ -14,6 +14,7 @@
     color: white;
 }
 
+
 header.modo-escuro {
     background-color: #191527;
     color: white;
@@ -30,6 +31,24 @@ header > section.modo-escuro > a{
 section.skills > .container-skills > .skill-modo-escuro{
    background-color: #5A43CB;
    color: white;
+}
+
+footer.modo-escuro {
+    background-color: #100E1B;
+}
+
+.header-smartphone.modo-escuro {
+    color: white;
+    background-color: #191527;
+}
+
+.menu-smartphone.modo-escuro {
+    background-color: #100E1B;
+    color: white;
+}
+
+.menu-smartphone > .firstLine.modo-escuro > a, .menu-smartphone > .secondLine.modo-escuro > a{
+    color: white;
 }
 
 
@@ -67,12 +86,6 @@ header > .container-informations > a:hover {
     color: blue;
 }
 
-
-
-.corpo-modo-escuro {
-    background-color: #191527;
-    color: white;
-}
 
 section.apresentation {
     height: 500px;
@@ -322,7 +335,7 @@ section.apresentation  > .container-smartphone-redes-sociais {
     
 }
 
-.smartphoneHeader {
+.header-smartphone {
     display: none;
     justify-content: space-around;
     align-items: center;
@@ -337,14 +350,14 @@ section.apresentation  > .container-smartphone-redes-sociais {
     box-shadow: 5px 5px 5px lightgray;
 }
 
-.smartphoneHeader > .container-icons {
+.header-smartphone > .container-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.smartphoneHeader > .container-icons > i {
+.header-smartphone > .container-icons > i {
     font-size: 20px;
 }
 
@@ -510,7 +523,8 @@ gap: 50px;
         display: none;
     } 
 
-    .smartphoneHeader {
+    .header-smartphone
+ {
         display: flex;
     }
 
