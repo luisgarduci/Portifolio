@@ -4,6 +4,17 @@ let informations = document.querySelector(".container-informations");
 let body = document.querySelector(".corpo-modo-claro");
 let titles = document.querySelector(".titles-modo-claro");
 let skills = document.querySelectorAll(".skill");
+let menuIcon = document.getElementById("menu");
+let closeIcon = document.querySelector(".close");
+let menu = document.querySelector(".menu-smartphone");
+
+menuIcon.addEventListener("click", () => {
+  menu.style.display = "flex";
+})
+
+closeIcon.addEventListener("click", () => {
+  menu.style.display = "none";
+})
 
 icons.forEach(icon => {
     icon.addEventListener("click", () => {

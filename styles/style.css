@@ -327,10 +327,10 @@ section.apresentation  > .container-smartphone-redes-sociais {
     justify-content: space-around;
     align-items: center;
     gap: 100px;
-    padding: 9px 0px 9px 0px;
+    padding: 15px 0px 15px 0px;
     border-top: 1px solid gray;
     background-color: white;
-    width: 90%;
+    width: 100%;
     position: fixed;
     bottom: 0;
     color: black;
@@ -357,6 +357,46 @@ section.projects > #container-smartphone-arrows {
 
 section.projects > #container-smartphone-arrows > i {
     font-size: 50px;
+}
+
+.menu-smartphone {
+display: none;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+position: fixed;
+bottom: 0px;
+width: 100%;
+height: 160px;
+border-radius: 25px 25px 0px 0px;
+background-color: white;
+text-align: center;
+color: black;
+z-index: 5;
+border: 1px solid lightgray;
+}
+
+.menu-smartphone > .firstLine, .secondLine {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+
+.menu-smartphone > .firstLine > a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-smartphone > .secondLine > a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-smartphone > i {
+    font-size: 25px;
+    cursor: pointer;
 }
 
 
@@ -496,6 +536,11 @@ section.projects > #container-smartphone-arrows > i {
   section.apresentation >  .container-smartphone-redes-sociais {
     top: 485px;
   }
+
+  section.about-me > img {
+    width: 350px;
+    
+}
   
 }
 
