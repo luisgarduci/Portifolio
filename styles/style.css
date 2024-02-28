@@ -266,7 +266,7 @@ section.projects > img {
     height: 179px;
     border-radius: 8px;
     object-fit: cover;
-    aspect-ratio: 16/9;
+    border: 1px solid lightgray;
 }
 
 section.projects > .container-project-informations {
@@ -280,6 +280,7 @@ section.projects > .container-project-informations {
 section.projects > .container-project-informations > p {
     width: 300px;
     font-size: 15px;
+    text-align: center;
 }
 
 section.projects > .container-project-informations > a {
