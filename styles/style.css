@@ -701,6 +701,10 @@ footer > .container-email, .container-linkedin {
         gap: 20px;
     }
 
+    section.skills > .container-skills > p {
+        width: 65px;
+    }
+
 }
 
 @media (max-width: 565px) {
